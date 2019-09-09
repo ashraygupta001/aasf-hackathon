@@ -1,0 +1,388 @@
+.background{
+    
+height: 675px;
+width: 100%;
+position: relative;
+
+}
+
+.background>img{
+    width:100%;
+    height:100%;
+    position:absolute;
+}
+.background>.btn{
+    position:absolute;
+    width:38px;
+    height:38px;
+    top:293px;
+    border:none;
+    border-radius:25px;
+}
+.background>#btn2{
+    position:relative; 
+    float:right;
+}
+
+
+#logoami{
+     height:43px;
+     width: 99x;
+}
+.images{
+    position:relative;
+    top: -90px;
+}
+.bg-modal {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+        z-index:100;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.modal-contents {
+	height: 150px;
+	width: 430px;
+	background-color: white;
+	text-align: center;
+	padding: 40px;
+	position: relative;
+	border-radius: 8px;
+        background-image: url(148.jpg);
+       overflow-y: scroll;
+       
+}
+
+input {
+	margin: 15px auto;
+	display: block;
+	width: 50%;
+	padding: 8px;
+	border: 1px solid gray;
+}
+
+.close {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+}
+.bg-modal input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    color:#fff;
+    background:#fb2525;
+    font-size:16px;
+    border-radius:20px;
+}
+
+.bg-model {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+        z-index:100;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.model-contents {
+	height: 390px;
+	width: 440px;
+	background-color: white;
+	text-align: center;
+	padding: 40px;
+	position: relative;
+	border-radius: 8px;
+        background-image: url(148.jpg);
+          overflow-y: scroll;
+}
+.bg-model input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    color:#fff;
+    background:#fb2525;
+    font-size:16px;
+    border-radius:20px;
+}
+.clase {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+}
+.sec{
+	margin-top: 56px;
+}
+.doctorlogin {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+        z-index:100;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.doctorlogin1 {
+	height: 450px;
+	width: 330px;
+	background-color: white;
+	text-align: center;
+	padding: 40px;
+	position: relative;
+	border-radius: 8px;
+        background-image: url(148.jpg);
+       overflow-y: scroll;
+       
+}
+
+.docclose {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+}
+.doctorlogin input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    color:#fff;
+    background:#fb2525;
+    font-size:16px;
+    border-radius:20px;
+}
+.patientlogin {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+        z-index:100;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.patientlogin1 {
+	height: 450px;
+	width: 330px;
+	background-color: white;
+	text-align: center;
+	padding: 40px;
+	position: relative;
+	border-radius: 8px;
+        background-image: url(148.jpg);
+       overflow-y: scroll;
+       
+}
+
+.patclose {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+}
+.patientlogin input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    color:#fff;
+    background:#fb2525;
+    font-size:16px;
+    border-radius:20px;
+}
+.patientsign {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+        z-index:100;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.patientsign1 {
+	height: 450px;
+	width: 230px;
+	background-color: white;
+	text-align: center;
+	padding: 40px;
+	position: relative;
+	border-radius: 8px;
+        background-image: url(148.jpg);
+      
+        overflow-y: scroll;
+}
+
+.paticlose {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+}
+.patientsign input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    color:#fff;
+    background:#fb2525;
+    font-size:16px;
+    border-radius:20px;
+}
+.docsign {
+	background-color: rgba(0, 0, 0, 0.8);
+	width: 100%;
+	height: 100%;
+	position: fixed;
+        z-index:100;
+	top: 0;
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+.docsign1 {
+	height: 450px;
+	width: 330px;
+	background-color: white;
+	text-align: center;
+	padding: 40px;
+	position: relative;
+	border-radius: 8px;
+        background-image: url(148.jpg);
+       overflow-y: scroll;
+       
+}
+
+.doctclose {
+	position: absolute;
+	top: 0;
+	right: 10px;
+	font-size: 42px;
+	color: #333;
+	transform: rotate(45deg);
+	cursor: pointer;
+	&:hover {
+		color: #666;
+	}
+}
+.docsign input[type="submit"]
+{
+    border:none;
+    outline:none;
+    height:40px;
+    color:#fff;
+    background:#fb2525;
+    font-size:16px;
+    border-radius:20px;
+}
+
+
+.h{
+    background-image: url(as.jpg);
+    min-height:590px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#f3f2ed;
+    font-family: Matura MT Script Capitals;  
+   
+    
+}
+.yu{
+    float: right;
+    padding-top: 29px;  
+    padding-right: 20px;
+}
+.images{
+    position:relative;
+    top: -90px;
+}
+.images{
+    webkit-webkit-transition:all is ease;
+     -moz-webkit-transition:all is ease;
+     -ms-webkit-transition:all is ease;
+      -o-webkit-transition:all is ease;
+}
+.images img:hover{
+    -webkit-filter:blur(3px);
+}
+.q{
+    background-image: url(7.jpg);
+    min-height:590px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#f3f2ed;
+    font-family: Matura MT Script Capitals;  
+   
+    
+}
+.qu{
+    float: right;
+    padding-top: 29px;  
+    padding-right: 20px;
+}
+.t{
+    background-image: url(8.jpg);
+    min-height:590px;
+    background-attachment:fixed;
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    color:#f3f2ed;
+    font-family: Matura MT Script Capitals;  
+   
+    
+}
+.tu{
+    float: right;
+    padding-top: 29px;  
+    padding-right: 20px;
+}
